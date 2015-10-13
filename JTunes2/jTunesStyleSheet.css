@@ -1,0 +1,75 @@
+.backgroundRect
+{
+	-fx-fill: #0A0228;
+	-fx-stroke: #790B0B;
+    -fx-stroke-width: 5;
+}
+
+.button
+{
+	-fx-background-color: #16650D;
+	-fx-text-fill: white;
+	-fx-pref-height: 25;
+	-fx-pref-width: 47;
+}
+
+.button:hover
+{
+	-fx-background-color: #203F1D;
+}
+
+.button:pressed
+{
+	-fx-background-color: #063002;
+}
+
+.label
+{
+	-fx-text-fill: black;
+}
+
+.slider .thumb
+{
+	-fx-color: #16650D;;
+}
+
+.slider .thumb:hover
+{
+	-fx-color: #5FCA54;
+}
+
+.slider .thumb:pressed
+{
+	-fx-color: #88CA82;
+}
+
+.slider .track
+{
+	-fx-background-color: #221455;
+}
+
+.TimeData
+{
+	-fx-text-fill: green;
+	-fx-font-size: 90%;
+}
+
+.MetaData
+{
+	-fx-text-fill: white;
+	-fx-font-size: 90%;
+}
+
+.tglButton
+{
+	-fx-pref-height: 42;
+	-fx-pref-width: 39;
+	-fx-font-size: 80%;
+	-fx-background-color: #16650D;
+	-fx-text-fill: white;
+}
+
+.tglButton:selected
+{
+	-fx-background-color: #063002;
+}
